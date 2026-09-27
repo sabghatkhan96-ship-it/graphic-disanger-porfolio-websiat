@@ -190,18 +190,19 @@ document.addEventListener("DOMContentLoaded", () => {
           if (shotSpec) {
             const promptBox = document.createElement("div");
             promptBox.className = "modal-prompt-box";
+            const detailText = shotSpec.docs || shotSpec.lens || "";
             promptBox.innerHTML = `
-              <p title="${shotSpec.prompt}"><strong>${shotSpec.label}:</strong> ${shotSpec.prompt}</p>
-              <button type="button" class="copy-prompt-btn">📋 COPY 8K STUDIO PROMPT</button>
+              <p title="${detailText}"><strong>${shotSpec.label}:</strong> ${detailText}</p>
+              <button type="button" class="copy-prompt-btn">📋 COPY CHECKLIST &amp; PLAN</button>
             `;
             const copyBtn = promptBox.querySelector(".copy-prompt-btn");
             copyBtn?.addEventListener("click", (ev) => {
               ev.stopPropagation();
-              navigator.clipboard?.writeText(shotSpec.prompt);
+              navigator.clipboard?.writeText(`${shotSpec.label}: ${detailText}`);
               copyBtn.textContent = "✓ COPIED TO CLIPBOARD!";
-              showToast(`Copied 8K Studio Prompt for ${shotSpec.label}`);
+              showToast(`Copied ${shotSpec.label} checklist!`);
               setTimeout(() => {
-                copyBtn.textContent = "📋 COPY 8K STUDIO PROMPT";
+                copyBtn.textContent = "📋 COPY CHECKLIST & PLAN";
               }, 2200);
             });
             wrapper.appendChild(promptBox);
@@ -220,13 +221,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === modal) modal.close();
   });
 
-  // 7. Contact Form Submission Handler
+  // 7. Loan Application Form Submission Handler
   const contactForm = document.getElementById("contact-form");
   contactForm?.addEventListener("submit", (e) => {
     e.preventDefault();
-    const name = document.getElementById("name")?.value || "Friend";
-    const service = document.getElementById("service")?.value || "Design Project";
-    showToast(`Thank you ${name}! Your ${service} inquiry has been received.`);
+    const name = document.getElementById("name")?.value || "Applicant";
+    const service = document.getElementById("service")?.value || "Personal Loan";
+    const refId = "NL-" + Math.floor(100000 + Math.random() * 900000);
+    showToast(`✓ Pre-Approved Ref #${refId}! Thank you ${name}, your ${service} plan is ready.`);
     contactForm.reset();
   });
 });

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services &amp; Pricing Packages — Aryan Vance Graphic Designer</title>
-  <meta name="description" content="Graphic Design Services & Packages: Brand Identity & Logo Design, Social Media Graphics, Marketing & Print Materials, and UI/UX Web Design." />
+  <title>Interactive 3D EMI Calculator &amp; Interest Rates — NovaLend 3D</title>
+  <meta name="description" content="Calculate your exact monthly loan EMI, total interest, and compare transparent fixed APR tiers across Personal, Home, Auto, and Business loans." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,23 +12,23 @@
   <header class="navbar">
     <div class="container nav-wrapper">
       <a href="index.html" class="logo">
-        <span class="logo-box">AV</span>
-        <span>ARYAN.DESIGN</span>
+        <span class="logo-box">NL</span>
+        <span>NOVALEND.3D</span>
       </a>
 
       <nav aria-label="Main Navigation">
         <ul class="nav-menu" id="nav-menu">
           <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">Projects</a></li>
-          <li><a href="services.html" class="active">Services &amp; Pricing</a></li>
-          <li><a href="about.html">Why Work With Me</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html">Loan Programs</a></li>
+          <li><a href="services.html" class="active">EMI Calculator &amp; Rates</a></li>
+          <li><a href="about.html">How It Works</a></li>
+          <li><a href="contact.html">Apply Now</a></li>
         </ul>
       </nav>
 
       <div class="nav-right">
         <button type="button" class="theme-btn" id="theme-toggle">☀ LIGHT MODE</button>
-        <a href="contact.html" class="btn btn-primary btn-sm">Hire Me ↗</a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Apply in 3 Mins ↗</a>
         <button type="button" class="mobile-menu-btn" id="mobile-menu-btn">☰ MENU</button>
       </div>
     </div>
@@ -38,186 +38,131 @@
     <section class="page-hero">
       <div class="container">
         <div class="breadcrumb">
-          <a href="index.html">HOME</a> <span>/</span> <span>SERVICES &amp; PRICING</span>
+          <a href="index.html">HOME</a> <span>/</span> <span>3D EMI CALCULATOR &amp; TRANSPARENT INTEREST RATES</span>
         </div>
-        <span class="section-badge">✦ Core Design Capabilities</span>
-        <h1 class="section-heading">What I <em>Design</em> &amp; Deliver</h1>
+        <span class="section-badge">✦ Exact Monthly EMI · Zero Hidden Charges</span>
+        <h1 class="section-heading">3D EMI Calculator &amp; <em>Rates</em></h1>
         <p class="section-subtitle">
-          Every service includes high-resolution master files, commercial usage rights, and unlimited revisions until you are 100% satisfied.
+          Adjust the sliders below to see your exact monthly installment before applying. What you see here is 100% what you pay.
         </p>
       </div>
     </section>
 
-    <!-- 4 Core Services Detailed Grid -->
     <section>
       <div class="container">
-        <div class="services-grid">
-          <div class="service-card">
-            <div>
-              <div class="service-icon-box">01</div>
-              <h3>Brand Identity &amp; Logo Design</h3>
-              <p>
-                A strong brand starts with a memorable mark. I craft timeless logos, color systems, and complete brand books that position your business as an industry leader.
-              </p>
-              <ul class="feature-list">
-                <li>3 Distinct Custom Logo Concepts</li>
-                <li>Primary, Secondary &amp; Submark Variations</li>
-                <li>Color Palette (HEX, RGB, CMYK, Pantone)</li>
-                <li>Typography Pairing &amp; Brand Guidelines PDF</li>
-                <li>All Master Vector Files (AI, EPS, SVG, PDF, PNG)</li>
-              </ul>
-            </div>
-            <a href="contact.html" class="btn btn-secondary btn-sm">Book Brand Identity →</a>
-          </div>
+        <!-- Interactive Full-Width 3D EMI Studio Box -->
+        <div style="background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 20px; padding: 2.25rem; margin-bottom: 4rem;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; align-items: center;">
+            <div style="display: flex; flex-direction: column; gap: 1.35rem;">
+              <div>
+                <label for="loan-type-select" style="display: block; font-weight: 700; margin-bottom: 0.5rem;">1. Choose Your Loan Category:</label>
+                <select id="loan-type-select" style="width: 100%; background: var(--bg-main); color: var(--text-main); border: 1px solid var(--border-strong); border-radius: 10px; padding: 0.85rem 1rem; font-size: 0.95rem; font-weight: 700;">
+                  <option value="8.9">⚡ Personal Instant Loan — 8.9% Fixed APR</option>
+                  <option value="6.5">🏠 Home &amp; Mortgage Loan — 6.5% Fixed APR</option>
+                  <option value="7.2">🚗 Auto &amp; EV Car Loan — 7.2% Fixed APR</option>
+                  <option value="8.4">💼 Business Growth Loan — 8.4% Fixed APR</option>
+                  <option value="5.9">🎓 Education &amp; Study Loan — 5.9% Fixed APR</option>
+                </select>
+              </div>
 
-          <div class="service-card">
-            <div>
-              <div class="service-icon-box">02</div>
-              <h3>Social Media Graphics</h3>
-              <p>
-                Stop the scroll with cohesive, high-converting social visuals tailored for Instagram, YouTube, LinkedIn, and paid ad campaigns.
-              </p>
-              <ul class="feature-list">
-                <li>Instagram Feed Posts, Stories &amp; Educational Carousels</li>
-                <li>High-CTR YouTube Thumbnails &amp; Channel Banners</li>
-                <li>Facebook, Instagram &amp; LinkedIn Paid Ad Creatives</li>
-                <li>Editable Canva / Figma / Photoshop Templates</li>
-                <li>Optimized Aspect Ratios (1:1, 4:5, 9:16, 16:9)</li>
-              </ul>
-            </div>
-            <a href="contact.html" class="btn btn-secondary btn-sm">Book Social Graphics →</a>
-          </div>
+              <div>
+                <div style="display: flex; justify-content: space-between; font-weight: 700; margin-bottom: 0.45rem;">
+                  <span>2. Loan Amount ($1,000 – $250,000):</span>
+                  <span id="calc-amount-val" style="color: var(--accent); font-family: var(--font-mono); font-size: 1.2rem;">$25,000</span>
+                </div>
+                <input type="range" id="loan-amount-slider" min="1000" max="250000" step="1000" value="25000" style="width: 100%; accent-color: var(--accent); cursor: pointer;" />
+              </div>
 
-          <div class="service-card">
-            <div>
-              <div class="service-icon-box">03</div>
-              <h3>Marketing &amp; Print Materials</h3>
-              <p>
-                Tactile, print-ready collateral engineered with accurate bleed, trim marks, and CMYK color separation for flawless printing.
-              </p>
-              <ul class="feature-list">
-                <li>Event Flyers, Posters &amp; Outdoor Billboards</li>
-                <li>Bi-fold &amp; Tri-fold Corporate Brochures</li>
-                <li>Luxury Business Cards (Foil / Emboss Ready)</li>
-                <li>Product Boxes, Labels &amp; Pouch Packaging</li>
-                <li>Print-Ready 300 DPI CMYK PDFs with Bleed</li>
-              </ul>
+              <div>
+                <div style="display: flex; justify-content: space-between; font-weight: 700; margin-bottom: 0.45rem;">
+                  <span>3. Repayment Tenure (6 – 84 Months):</span>
+                  <span id="calc-tenure-val" style="color: var(--accent); font-family: var(--font-mono); font-size: 1.05rem;">36 Months (3.0 Yrs)</span>
+                </div>
+                <input type="range" id="loan-tenure-slider" min="6" max="84" step="6" value="36" style="width: 100%; accent-color: var(--accent); cursor: pointer;" />
+              </div>
             </div>
-            <a href="contact.html" class="btn btn-secondary btn-sm">Book Print &amp; Packaging →</a>
-          </div>
 
-          <div class="service-card">
-            <div>
-              <div class="service-icon-box">04</div>
-              <h3>UI/UX &amp; Web Design</h3>
-              <p>
-                Clean, fast, mobile-responsive landing page designs and interactive Figma prototypes engineered to turn visitors into paying clients.
-              </p>
-              <ul class="feature-list">
-                <li>High-Converting Startup &amp; Creator Landing Pages</li>
-                <li>Desktop &amp; Mobile Responsive Layouts</li>
-                <li>Interactive Clickable Figma Prototypes</li>
-                <li>Reusable UI Component Library &amp; Design Tokens</li>
-                <li>Developer-Ready Handoff Specs</li>
-              </ul>
+            <div style="background: var(--bg-main); border: 2px solid var(--accent); border-radius: 18px; padding: 2rem; text-align: center;">
+              <span id="calc-rate-badge" style="font-family: var(--font-mono); font-size: 0.75rem; background: var(--accent-soft); color: var(--accent); padding: 0.3rem 0.75rem; border-radius: 999px; font-weight: 700;">8.9% Fixed APR</span>
+              <p style="color: var(--text-muted); margin-top: 0.75rem; font-size: 0.88rem;">Your Exact Monthly Payment (EMI):</p>
+              <h2 id="calc-emi-result" style="font-family: var(--font-heading); font-size: 3rem; font-weight: 800; color: var(--accent); margin: 0.35rem 0;">$794 / mo</h2>
+
+              <!-- Visual Principal vs Interest Bar -->
+              <div style="height: 10px; background: #334155; border-radius: 999px; overflow: hidden; margin: 1.1rem 0;">
+                <div id="emi-bar-principal" style="height: 100%; width: 88%; background: var(--accent); transition: width 0.3s ease;"></div>
+              </div>
+
+              <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 1.35rem;">
+                <span>Total Interest: <strong id="calc-interest-result" style="color: var(--text-main);">$3,580</strong></span>
+                <span>Total Payable: <strong id="calc-total-result" style="color: var(--text-main);">$28,580</strong></span>
+              </div>
+
+              <a href="contact.html" class="btn btn-primary" style="width: 100%;">Apply With This EMI Plan ↗</a>
             </div>
-            <a href="contact.html" class="btn btn-secondary btn-sm">Book UI/UX Design →</a>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Transparent Pricing Packages -->
-    <section class="value-section">
-      <div class="container">
-        <span class="section-badge">✦ Investment Packages</span>
-        <h2 class="section-heading">Simple, <em>Transparent</em> Pricing</h2>
-        <p class="section-subtitle">
-          Choose a ready-made package or contact me for a custom quote tailored to your exact deliverables.
-        </p>
+        <!-- 3 Transparent Rate Tiers -->
+        <span class="section-badge">✦ Clear Rate Comparison</span>
+        <h2 class="section-heading">Transparent <em>Interest</em> Plans</h2>
 
-        <div class="pricing-grid">
-          <!-- Tier 1 -->
+        <div class="pricing-grid" style="margin-top: 2rem;">
           <div class="pricing-card">
-            <div>
-              <span class="value-number">STARTER PACKAGE</span>
-              <h3>Logo &amp; Brand Essentials</h3>
-              <div class="price-amount">$299 <span>/ one-time</span></div>
-              <p style="color: var(--text-muted); font-size: 0.9rem;">
-                Ideal for new creators and early-stage businesses needing a sharp, professional logo fast.
-              </p>
-              <ul class="feature-list">
-                <li>3 Custom Logo Concepts</li>
-                <li>Color Palette &amp; Font Pairing</li>
-                <li>Business Card &amp; Letterhead Design</li>
-                <li>48-Hour First Concept Delivery</li>
-                <li>Unlimited Revisions &amp; Vector Files</li>
-              </ul>
-            </div>
-            <a href="contact.html" class="btn btn-secondary" style="width: 100%;">Choose Starter Plan ↗</a>
+            <span class="pricing-tier">PERSONAL &amp; EDUCATION</span>
+            <div class="pricing-price">5.9% – 8.9% <small>p.a.</small></div>
+            <p class="pricing-desc">Instant unsecured funds for personal milestones, emergencies, or university tuition.</p>
+            <ul class="pricing-features">
+              <li>✓ Loan Limit: $1,000 to $200,000</li>
+              <li>✓ Approval Time: 15 Minutes</li>
+              <li>✓ Zero Collateral or Guarantor Needed</li>
+              <li>✓ $0 Pre-Closure or Part-Payment Fee</li>
+            </ul>
+            <a href="contact.html" class="btn btn-secondary" style="width: 100%;">Select Personal Plan ↗</a>
           </div>
 
-          <!-- Tier 2 (Most Popular) -->
           <div class="pricing-card popular">
-            <span class="popular-ribbon">MOST POPULAR</span>
-            <div>
-              <span class="value-number">GROWTH SUITE</span>
-              <h3>Complete Brand + Social Kit</h3>
-              <div class="price-amount">$649 <span>/ complete kit</span></div>
-              <p style="color: var(--text-muted); font-size: 0.9rem;">
-                Full brand identity system plus social media templates so you launch with immediate authority.
-              </p>
-              <ul class="feature-list">
-                <li>Everything in Starter Package</li>
-                <li>Complete 20-Page Brand Guidelines Book</li>
-                <li>15 Custom Social Media Post &amp; Ad Templates</li>
-                <li>Product Packaging / Flyer Design</li>
-                <li>Priority Support &amp; All Source Files</li>
-              </ul>
-            </div>
-            <a href="contact.html" class="btn btn-primary" style="width: 100%;">Choose Growth Suite ↗</a>
+            <span class="popular-tag">LOWEST INTEREST RATE</span>
+            <span class="pricing-tier">HOME &amp; AUTO FINANCING</span>
+            <div class="pricing-price">6.5% – 7.2% <small>p.a.</small></div>
+            <p class="pricing-desc">Buy your dream house or drive home a new vehicle with up to 90%–100% value coverage.</p>
+            <ul class="pricing-features">
+              <li>✓ Loan Limit: $5,000 to $1,000,000</li>
+              <li>✓ Tenure: Up to 30 Years (360 Months)</li>
+              <li>✓ 0.50% Extra Discount for Electric Cars</li>
+              <li>✓ Free Doorstep Legal &amp; Valuation Support</li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary" style="width: 100%;">Select Home / Auto Plan ↗</a>
           </div>
 
-          <!-- Tier 3 -->
           <div class="pricing-card">
-            <div>
-              <span class="value-number">FLAGSHIP PARTNER</span>
-              <h3>Brand Identity + Web UI/UX</h3>
-              <div class="price-amount">$1,290 <span>/ full launch</span></div>
-              <p style="color: var(--text-muted); font-size: 0.9rem;">
-                End-to-end visual branding, print collateral, and a modern landing page design in Figma.
-              </p>
-              <ul class="feature-list">
-                <li>Full Brand Identity &amp; Guidelines</li>
-                <li>Custom Responsive Landing Page UI (Figma)</li>
-                <li>Complete Social Media &amp; Print Collateral</li>
-                <li>Interactive Prototype + Developer Handoff</li>
-                <li>1-on-1 Strategy &amp; Art Direction Calls</li>
-              </ul>
-            </div>
-            <a href="contact.html" class="btn btn-secondary" style="width: 100%;">Choose Flagship Plan ↗</a>
+            <span class="pricing-tier">BUSINESS &amp; DEBT REFINANCE</span>
+            <div class="pricing-price">7.8% – 8.4% <small>p.a.</small></div>
+            <p class="pricing-desc">Scale your business without property collateral or merge expensive credit cards into 1 low EMI.</p>
+            <ul class="pricing-features">
+              <li>✓ Loan Limit: $2,000 to $500,000</li>
+              <li>✓ Approved via 6-Month Bank Statement PDF</li>
+              <li>✓ Revolving Credit Line (Pay Only What You Use)</li>
+              <li>✓ Dedicated Commercial Relationship Manager</li>
+            </ul>
+            <a href="contact.html" class="btn btn-secondary" style="width: 100%;">Select Business Plan ↗</a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="footer-cta-section">
-      <div class="container">
-        <footer class="footer-bottom">
-          <span>© 2026 ARYAN VANCE DESIGN STUDIO.</span>
-          <span>
-            <a href="index.html" style="color: inherit; margin-right: 1rem;">Home</a>
-            <a href="portfolio.html" style="color: inherit; margin-right: 1rem;">Projects</a>
-            <a href="services.html" style="color: inherit; margin-right: 1rem;">Services</a>
-            <a href="about.html" style="color: inherit; margin-right: 1rem;">About</a>
-            <a href="contact.html" style="color: inherit;">Contact</a>
-          </span>
-        </footer>
       </div>
     </section>
   </main>
 
+  <footer>
+    <div class="container footer-flex">
+      <a href="index.html" class="logo">
+        <span class="logo-box">NL</span>
+        <span>NOVALEND.3D</span>
+      </a>
+      <p>© 2026 NovaLend 3D Financial Technologies · 0% Hidden Fees Guaranteed.</p>
+    </div>
+  </footer>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="mockup-studio.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
