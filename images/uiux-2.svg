@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mobBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141722"/>
+      <stop offset="100%" stop-color="#090B10"/>
+    </linearGradient>
+    <filter id="mobDrop" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="22" stdDeviation="16" flood-color="#000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#mobBg)"/>
+  <!-- Three iOS Mobile E-Commerce Screens -->
+  <!-- Screen 1: Product Discovery Feed -->
+  <g filter="url(#mobDrop)" transform="translate(60, 60) rotate(-4)">
+    <rect x="0" y="0" width="205" height="380" rx="28" fill="#181C28" stroke="#343B52" stroke-width="3"/>
+    <rect x="18" y="34" width="169" height="155" rx="14" fill="#FF4D29"/>
+    <circle cx="102" cy="111" r="46" fill="#D4FF33"/>
+    <rect x="18" y="206" width="120" height="12" rx="6" fill="#FFFFFF"/>
+    <rect x="18" y="226" width="85" height="9" rx="4.5" fill="#FF4D29"/>
+    <rect x="18" y="254" width="78" height="85" rx="10" fill="#232838"/>
+    <rect x="109" y="254" width="78" height="85" rx="10" fill="#232838"/>
+  </g>
+  <!-- Screen 2: Center Hero 3D Product View & Add to Bag -->
+  <g filter="url(#mobDrop)" transform="translate(297, 35)">
+    <rect x="0" y="0" width="215" height="420" rx="30" fill="#0E1016" stroke="#FF4D29" stroke-width="3"/>
+    <rect x="20" y="36" width="175" height="195" rx="16" fill="#D4FF33"/>
+    <path d="M55 145 Q107 85 168 120 Q135 172 62 170 Z" fill="#111317"/>
+    <rect x="20" y="252" width="135" height="14" rx="7" fill="#FFFFFF"/>
+    <rect x="20" y="276" width="90" height="10" rx="5" fill="#9CA1AB"/>
+    <!-- Size Selector Pills -->
+    <circle cx="42" cy="316" r="16" fill="#FF4D29"/>
+    <circle cx="84" cy="316" r="16" fill="#1D2230"/>
+    <circle cx="126" cy="316" r="16" fill="#1D2230"/>
+    <rect x="20" y="352" width="175" height="42" rx="21" fill="#FF4D29"/>
+  </g>
+  <!-- Screen 3: Instant Apple Pay & Order Confirmation -->
+  <g filter="url(#mobDrop)" transform="translate(535, 60) rotate(4)">
+    <rect x="0" y="0" width="205" height="380" rx="28" fill="#181C28" stroke="#343B52" stroke-width="3"/>
+    <circle cx="102" cy="115" r="45" fill="#10B981"/>
+    <polyline points="82,115 96,130 124,100" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <rect x="38" y="185" width="128" height="14" rx="7" fill="#FFFFFF"/>
+    <rect x="54" y="210" width="96" height="9" rx="4.5" fill="#10B981"/>
+    <rect x="22" y="248" width="161" height="68" rx="12" fill="#232838"/>
+    <rect x="22" y="330" width="161" height="32" rx="16" fill="#D4FF33"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coffeeBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#221C18"/>
+      <stop offset="100%" stop-color="#110E0C"/>
+    </linearGradient>
+    <linearGradient id="canisterGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C95929"/>
+      <stop offset="45%" stop-color="#EC7B47"/>
+      <stop offset="100%" stop-color="#9E3F17"/>
+    </linearGradient>
+    <linearGradient id="darkCan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="50%" stop-color="#2E2925"/>
+      <stop offset="100%" stop-color="#12100E"/>
+    </linearGradient>
+    <filter id="drop" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#coffeeBg)"/>
+  <ellipse cx="400" cy="435" rx="310" ry="34" fill="#080605" opacity="0.7"/>
+  <!-- Left Matte Black Coffee Canister -->
+  <g filter="url(#drop)" transform="translate(115, 95)">
+    <rect x="0" y="24" width="185" height="295" rx="18" fill="url(#darkCan)"/>
+    <rect x="12" y="0" width="161" height="32" rx="8" fill="#D6CEC2"/>
+    <rect x="22" y="75" width="141" height="175" rx="6" fill="#F4EFE6"/>
+    <circle cx="92" cy="135" r="32" fill="#E26D38"/>
+    <path d="M72 145 Q92 110 112 145" fill="none" stroke="#141210" stroke-width="4"/>
+    <rect x="42" y="185" width="100" height="10" rx="5" fill="#141210"/>
+    <rect x="54" y="205" width="76" height="7" rx="3.5" fill="#E26D38"/>
+  </g>
+  <!-- Center Terracotta Hero Coffee Canister (3D Shaded Cylinder) -->
+  <g filter="url(#drop)" transform="translate(295, 60)">
+    <rect x="0" y="28" width="215" height="345" rx="22" fill="url(#canisterGrad)"/>
+    <rect x="14" y="0" width="187" height="36" rx="10" fill="#1C1917"/>
+    <!-- Topographic Wave Graphic on Canister -->
+    <path d="M0 220 Q107 175 215 230 L215 350 Q215 373 192 373 L23 373 Q0 373 0 350 Z" fill="#141210"/>
+    <path d="M0 245 Q107 200 215 255" fill="none" stroke="#E26D38" stroke-width="2.5" opacity="0.7"/>
+    <path d="M0 270 Q107 225 215 280" fill="none" stroke="#E26D38" stroke-width="2" opacity="0.5"/>
+    <!-- Cream Spec Label -->
+    <rect x="28" y="70" width="159" height="125" rx="8" fill="#F7F3EB"/>
+    <circle cx="107" cy="112" r="24" fill="#141210"/>
+    <circle cx="107" cy="112" r="9" fill="#E26D38"/>
+    <rect x="48" y="150" width="118" height="10" rx="5" fill="#141210"/>
+    <rect x="64" y="168" width="86" height="7" rx="3.5" fill="#8C7A6B"/>
+  </g>
+  <!-- Right Takeaway Branded Cup & Coaster -->
+  <g filter="url(#drop)" transform="translate(540, 165)">
+    <polygon points="15,30 155,30 138,245 32,245" fill="#F4EFE6"/>
+    <polygon points="19,85 151,85 144,175 26,175" fill="url(#canisterGrad)"/>
+    <rect x="6" y="8" width="158" height="24" rx="8" fill="#1C1917"/>
+    <circle cx="85" cy="130" r="24" fill="#F4EFE6"/>
+    <circle cx="85" cy="130" r="10" fill="#1C1917"/>
+  </g>
+</svg>

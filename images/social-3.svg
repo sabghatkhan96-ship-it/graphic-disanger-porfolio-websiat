@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="adBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E0E0D"/>
+      <stop offset="100%" stop-color="#0B0606"/>
+    </linearGradient>
+    <linearGradient id="shoeCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4D29"/>
+      <stop offset="100%" stop-color="#B81D00"/>
+    </linearGradient>
+    <filter id="aDrop" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#adBg)"/>
+  <!-- Hero D2C Product Ad Card -->
+  <g filter="url(#aDrop)" transform="translate(65, 45)">
+    <rect x="0" y="0" width="390" height="410" rx="20" fill="url(#shoeCard)"/>
+    <circle cx="195" cy="175" r="110" fill="#D4FF33"/>
+    <!-- Stylized Dynamic Runner Wing Silhouette -->
+    <path d="M105 195 Q175 120 295 145 Q235 215 125 225 Z" fill="#111317"/>
+    <path d="M135 215 L265 165" stroke="#FF4D29" stroke-width="6" stroke-linecap="round"/>
+    <rect x="34" y="315" width="210" height="18" rx="9" fill="#FFFFFF"/>
+    <rect x="34" y="345" width="145" height="12" rx="6" fill="#FFE0D9"/>
+    <rect x="270" y="315" width="90" height="52" rx="14" fill="#111317"/>
+  </g>
+  <!-- Right Story Ad & ROAS Conversion Widget -->
+  <g filter="url(#aDrop)" transform="translate(490, 45)">
+    <rect x="0" y="0" width="245" height="255" rx="18" fill="#161922" stroke="#323846" stroke-width="2"/>
+    <circle cx="122" cy="105" r="62" fill="none" stroke="#D4FF33" stroke-width="14"/>
+    <circle cx="122" cy="105" r="26" fill="#FF4D29"/>
+    <rect x="42" y="192" width="160" height="14" rx="7" fill="#FFFFFF"/>
+    <rect x="65" y="216" width="115" height="10" rx="5" fill="#D4FF33"/>
+  </g>
+  <g filter="url(#aDrop)" transform="translate(490, 320)">
+    <rect x="0" y="0" width="245" height="135" rx="18" fill="#D4FF33"/>
+    <rect x="28" y="28" width="120" height="16" rx="8" fill="#111317"/>
+    <rect x="28" y="54" width="185" height="10" rx="5" fill="#111317" opacity="0.65"/>
+    <rect x="28" y="82" width="110" height="32" rx="16" fill="#FF4D29"/>
+  </g>
+</svg>

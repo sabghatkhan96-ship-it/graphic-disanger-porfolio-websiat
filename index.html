@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Vance — Graphic Designer Portfolio (Home)</title>
+  <meta name="description" content="Transforming Ideas into Stunning Visuals That Grow Your Brand. Professional Graphic Designer helping startups and creators stand out." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ======================================================================
+       MULTI-PAGE NAVIGATION HEADER
+       ====================================================================== -->
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">
+        <span class="logo-box">AV</span>
+        <span>ARYAN.DESIGN</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="portfolio.html">Projects</a></li>
+          <li><a href="services.html">Services &amp; Pricing</a></li>
+          <li><a href="about.html">Why Work With Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-right">
+        <button type="button" class="theme-btn" id="theme-toggle">☀ LIGHT MODE</button>
+        <a href="contact.html" class="btn btn-primary btn-sm">Hire Me ↗</a>
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-btn">☰ MENU</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================================
+         SECTION 1: HERO SECTION + INTERACTIVE LIVE BRAND COLOR PREVIEW STUDIO
+         ==================================================================== -->
+    <section class="hero-section">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <div class="availability-tag">
+            <span class="pulse-dot"></span>
+            <span>AVAILABLE FOR NEW PROJECTS · FAST 48H DELIVERY</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Transforming Ideas into <span class="highlight">Stunning Visuals</span> That Grow Your Brand.
+          </h1>
+
+          <p class="hero-subheadline">
+            Hi, I'm <strong>Aryan Vance</strong>, a Professional Graphic Designer helping startups and creators stand out with unforgettable brand identities, social media visuals, print design, and modern web UI.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="portfolio.html" class="btn btn-primary">
+              View My Work ↗
+            </a>
+            <a href="contact.html" class="btn btn-secondary">
+              Let's Talk / Hire Me ↗
+            </a>
+          </div>
+
+          <div class="hero-micro-proof">
+            <span>✓ 50+ Projects Completed</span>
+            <span>✓ Pixel-Perfect Vectors</span>
+            <span>✓ Unlimited Revisions</span>
+          </div>
+        </div>
+
+        <!-- Interactive Live Brand Color Preview Studio -->
+        <div class="hero-mockup-card">
+          <div class="mockup-top-bar">
+            <div class="window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span id="live-color-readout">LIVE BRAND COLOR STUDIO // #FF4D29</span>
+            <button type="button" class="theme-btn" id="remix-scene-btn" style="height: 28px; padding: 0 0.65rem; font-size: 0.68rem;">
+              ↻ SWITCH MOCKUP SCENE
+            </button>
+          </div>
+
+          <!-- Dynamic SVG Brand Mockup where ALL Brand Elements Respond to --accent -->
+          <div class="hero-artwork-stage">
+            <svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Interactive Live Brand Design Mockup">
+              <defs>
+                <filter id="heroShadow" x="-15%" y="-15%" width="130%" height="135%">
+                  <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000" flood-opacity="0.55"/>
+                </filter>
+              </defs>
+              <rect width="640" height="460" fill="#101218"/>
+              <!-- Subtle Studio Grid -->
+              <line x1="0" y1="115" x2="640" y2="115" stroke="#222632" stroke-width="1"/>
+              <line x1="0" y1="345" x2="640" y2="345" stroke="#222632" stroke-width="1"/>
+              <line x1="210" y1="0" x2="210" y2="460" stroke="#222632" stroke-width="1"/>
+              <line x1="440" y1="0" x2="440" y2="460" stroke="#222632" stroke-width="1"/>
+
+              <!-- Floating Card 1: 3D Brand Guidelines Book & Logo Cover -->
+              <g filter="url(#heroShadow)" id="hero-card-1">
+                <rect x="36" y="38" width="250" height="338" rx="16" fill="#181C26" style="stroke: var(--accent); stroke-width: 2px;"/>
+                <rect x="56" y="58" width="210" height="155" rx="10" id="hero-dynamic-bg" style="fill: var(--accent); transition: fill 0.3s ease;"/>
+                <circle cx="161" cy="135" r="46" fill="none" stroke="#FFFFFF" stroke-width="10"/>
+                <polygon points="161,105 188,152 134,152" fill="#FFFFFF"/>
+                <text x="56" y="248" fill="#F7F6F2" font-family="Syne, sans-serif" font-weight="800" font-size="22">NOVAPAY AI</text>
+                <text x="56" y="270" style="fill: var(--accent);" font-family="JetBrains Mono, monospace" font-size="10">LIVE BRAND IDENTITY SYSTEM</text>
+                <!-- Live Color Swatch Chips inside Mockup -->
+                <rect x="56" y="292" width="58" height="32" rx="6" style="fill: var(--accent);"/>
+                <rect x="122" y="292" width="58" height="32" rx="6" fill="#D4FF33"/>
+                <rect x="188" y="292" width="58" height="32" rx="6" fill="#F7F6F2"/>
+                <text x="56" y="344" fill="#9CA1AB" font-family="JetBrains Mono, monospace" font-size="9" id="svg-hex-label">PRIMARY SWATCH: #FF4D29</text>
+              </g>
+
+              <!-- Floating Card 2: Interactive Web & Packaging Card -->
+              <g filter="url(#heroShadow)" id="hero-card-2">
+                <rect x="312" y="55" width="292" height="225" rx="16" fill="#F7F6F2"/>
+                <circle cx="555" cy="100" r="24" style="fill: var(--accent);"/>
+                <text x="338" y="108" fill="#111317" font-family="Syne, sans-serif" font-weight="800" font-size="24">STAND OUT</text>
+                <text x="338" y="142" style="fill: var(--accent);" font-family="Instrument Serif, serif" font-style="italic" font-size="32">Visual Identity System</text>
+                <rect x="338" y="166" width="238" height="8" rx="4" fill="#DDD9D0"/>
+                <rect x="338" y="184" width="175" height="8" rx="4" fill="#DDD9D0"/>
+                <rect x="338" y="216" width="145" height="38" rx="19" style="fill: var(--accent);"/>
+                <text x="364" y="239" fill="#FFFFFF" font-family="JetBrains Mono, monospace" font-weight="700" font-size="11">LIVE PREVIEW ↗</text>
+              </g>
+
+              <!-- Floating Card 3: Designer Verified Badge -->
+              <g filter="url(#heroShadow)" id="hero-card-3">
+                <rect x="312" y="302" width="292" height="118" rx="16" fill="#181C26" style="stroke: var(--accent); stroke-width: 2px;"/>
+                <circle cx="362" cy="361" r="28" style="fill: var(--accent);"/>
+                <text x="349" y="368" fill="#FFFFFF" font-family="Syne, sans-serif" font-weight="800" font-size="17">AV</text>
+                <text x="405" y="348" fill="#F7F6F2" font-family="Syne, sans-serif" font-weight="700" font-size="17">Live Color Customizer</text>
+                <text x="405" y="370" fill="#9CA1AB" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Click any color below to test</text>
+                <text x="405" y="394" style="fill: var(--accent);" font-family="JetBrains Mono, monospace" font-weight="700" font-size="11">★ 100% BESPOKE BRANDING</text>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Interactive Live Brand Color Control Panel -->
+          <div class="mockup-Swatches-footer" style="flex-wrap: wrap; padding-top: 0.85rem; border-top: 1px solid var(--border-subtle);">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span class="pulse-dot"></span>
+              <span style="font-family: var(--font-mono); font-size: 0.74rem; font-weight: 700; color: var(--text-main);">
+                LIVE BRAND COLOR PREVIEW:
+              </span>
+            </div>
+
+            <div class="palette-pill-group" style="align-items: center; gap: 0.5rem;">
+              <button type="button" class="color-dot-btn active-swatch" style="background: #ff4d29;" data-accent="#ff4d29" data-name="Coral Vermilion" title="Coral Vermilion (#FF4D29)"></button>
+              <button type="button" class="color-dot-btn" style="background: #2563eb;" data-accent="#2563eb" data-name="Royal Cobalt" title="Royal Cobalt (#2563EB)"></button>
+              <button type="button" class="color-dot-btn" style="background: #10b981;" data-accent="#10b981" data-name="Emerald Mint" title="Emerald Mint (#10B981)"></button>
+              <button type="button" class="color-dot-btn" style="background: #8b5cf6;" data-accent="#8b5cf6" data-name="Electric Violet" title="Electric Violet (#8B5CF6)"></button>
+              <button type="button" class="color-dot-btn" style="background: #f59e0b;" data-accent="#f59e0b" data-name="Cyber Amber" title="Cyber Amber (#F59E0B)"></button>
+              <button type="button" class="color-dot-btn" style="background: #e11d48;" data-accent="#e11d48" data-name="Crimson Rose" title="Crimson Rose (#E11D48)"></button>
+              <label for="custom-brand-picker" style="cursor: pointer; font-family: var(--font-mono); font-size: 0.68rem; background: var(--bg-elevated); padding: 0.25rem 0.55rem; border-radius: 999px; border: 1px solid var(--border-strong); display: inline-flex; align-items: center; gap: 0.3rem;" title="Pick Any Custom Brand Color">
+                🎨 CUSTOM
+                <input type="color" id="custom-brand-picker" value="#ff4d29" style="width: 16px; height: 16px; border: none; background: transparent; cursor: pointer; padding: 0;" />
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 2: SOCIAL PROOF / TRUSTED BY (BRANDS + STATS)
+         ==================================================================== -->
+    <section class="social-proof-section">
+      <div class="container">
+        <p class="proof-header">SECTION 02 · TRUSTED BY 50+ BRANDS, STARTUPS &amp; CREATORS</p>
+
+        <div class="client-logos-grid">
+          <div class="client-logo-box">NOVAPAY</div>
+          <div class="client-logo-box">VERTEX AI</div>
+          <div class="client-logo-box">AURA LUXE</div>
+          <div class="client-logo-box">PULSE MEDIA</div>
+          <div class="client-logo-box">KINETIC CO.</div>
+          <div class="client-logo-box">ZENITH LABS</div>
+        </div>
+
+        <div class="stats-bar">
+          <div class="stat-card">
+            <h3>50+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat-card">
+            <h3>99%</h3>
+            <p>Client Satisfaction</p>
+          </div>
+          <div class="stat-card">
+            <h3>48 hrs</h3>
+            <p>Fast Turnaround</p>
+          </div>
+          <div class="stat-card">
+            <h3>5.0 ★</h3>
+            <p>Verified Rating</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 3: FEATURED PORTFOLIO (REAL MOCKUP PICTURES FROM images/)
+         ==================================================================== -->
+    <section>
+      <div class="container">
+        <div class="portfolio-header-row">
+          <div>
+            <span class="section-badge">✦ Section 03 · Featured Portfolio</span>
+            <h2 class="section-heading">Top 4 <em>Featured</em> Works</h2>
+            <p class="section-subtitle">
+              Switch between <strong>Shot 1, Shot 2, and Shot 3</strong> on any card below, or click to inspect the full Case Study.
+            </p>
+          </div>
+          <a href="portfolio.html" class="btn btn-primary">
+            View All Works (12 Projects) ↗
+          </a>
+        </div>
+
+        <div class="featured-grid">
+          <!-- Featured 1: Brand Identity (NovaPay AI) -->
+          <article class="portfolio-item" data-project-id="branding-01" data-title="NovaPay AI — Luxury Fintech Brand Identity" data-category="BRANDING 01 · FINTECH IDENTITY" data-desc="Luxury fintech brand identity guide featuring open minimalist brand book with gold foil typography, sleek metallic credit cards, matte black welcome kit canisters on a neon-lit podium, and macro metal NFC membership disc.">
+            <div class="portfolio-thumb">
+              <span class="portfolio-category-pill">BRANDING 01 · FINTECH IDENTITY</span>
+              <div class="shot-switcher">
+                <button type="button" class="shot-btn active">Shot 1</button>
+                <button type="button" class="shot-btn">Shot 2</button>
+                <button type="button" class="shot-btn">Shot 3</button>
+              </div>
+              <div class="thumb-slide active-slide">
+                <img src="images/brand-1.svg" alt="NovaPay AI Shot 1: Brand Book Flatlay with Gold Foil and Metallic Credit Cards" />
+              </div>
+              <div class="thumb-slide">
+                <img src="images/brand-2.svg" alt="NovaPay AI Shot 2: Matte Black Welcome Kit Packaging and Canisters on Neon Podium" />
+              </div>
+              <div class="thumb-slide">
+                <img src="images/brand-3.svg" alt="NovaPay AI Shot 3: Futuristic Metal Membership Disc and Digital App Interface Cards" />
+              </div>
+            </div>
+            <div class="portfolio-caption">
+              <div>
+                <h3>NovaPay AI — Fintech Brand Identity</h3>
+                <p>Shot 1: Brand Book Flatlay · Shot 2: Canisters &amp; Packaging · Shot 3: Disc Kit</p>
+              </div>
+              <span class="view-icon">↗</span>
+            </div>
+          </article>
+
+          <!-- Featured 2: Social Media Graphics (Pulse Creators) -->
+          <article class="portfolio-item" data-project-id="social-01" data-title="Pulse Creators — Instagram Carousel &amp; YouTube Branding Suite" data-category="SOCIAL 01 · CREATOR CAROUSEL KIT" data-desc="Floating 3D clay and glass smartphone mockups displaying a cohesive high-engagement Instagram carousel grid, sleek laptop displaying high-CTR YouTube creator thumbnails, and multi-screen floating ad variations.">
+            <div class="portfolio-thumb">
+              <span class="portfolio-category-pill">SOCIAL 01 · CREATOR CAROUSEL KIT</span>
+              <div class="shot-switcher">
+                <button type="button" class="shot-btn active">Shot 1</button>
+                <button type="button" class="shot-btn">Shot 2</button>
+                <button type="button" class="shot-btn">Shot 3</button>
+              </div>
+              <div class="thumb-slide active-slide">
+                <img src="images/social-1.svg" alt="Pulse Creators Shot 1: Floating 3D Smartphones Displaying Instagram Carousel Grid" />
+              </div>
+              <div class="thumb-slide">
+                <img src="images/social-2.svg" alt="Pulse Creators Shot 2: Laptop Mockup Showing High-CTR YouTube Video Thumbnails" />
+              </div>
+              <div class="thumb-slide">
+                <img src="images/social-3.svg" alt="Pulse Creators Shot 3: Multi-Screen Floating Social Media Ad Creatives" />
+              </div>
+            </div>
+            <div class="portfolio-caption">
+              <div>
+                <h3>Pulse Creators — 50-Template Social Kit</h3>
+                <p>Shot 1: IG Feed Mockup · Shot 2: YT Creator Pack · Shot 3: Ad Variations</p>
+              </div>
+              <span class="view-icon">↗</span>
+            </div>
+          </article>
+
+          <!-- Featured 3: Print & Packaging (Aura Botanicals) -->
+          <article class="portfolio-item" data-project-id="print-01" data-title="Aura Botanicals — Luxury Skincare Packaging &amp; Tri-Fold Brochure" data-category="PRINT 01 · PACKAGING & BROCHURE" data-desc="Amber glass dropper bottle with gold foil typography and textured rigid box on white Carrara marble with botanical leaf shadows, Scandinavian wood daylight tri-fold corporate brochure, and stone podium frosted cosmetic jar line.">
+            <div class="portfolio-thumb">
+              <span class="portfolio-category-pill">PRINT 01 · PACKAGING &amp; BROCHURE</span>
+              <div class="shot-switcher">
+                <button type="button" class="shot-btn active">Shot 1</button>
+                <button type="button" class="shot-btn">Shot 2</button>
+                <button type="button" class="shot-btn">Shot 3</button>
+              </div>
+              <div class="thumb-slide active-slide">
+                <img src="images/print-1.svg" alt="Aura Botanicals Shot 1: Amber Glass Serum Dropper Bottle and Rigid Box on White Marble" />
+              </div>
+              <div class="thumb-slide">
+                <img src="images/print-2.svg" alt="Aura Botanicals Shot 2: Tri-Fold Brochure Opened on Scandinavian Wooden Table" />
+              </div>
+              <div class="thumb-slide">
+                <img src="images/print-3.svg" alt="Aura Botanicals Shot 3: Frosted Glass Cosmetic Jars Aligned on Stone Spa Podium" />
+              </div>
+            </div>
+            <div class="portfolio-caption">
+              <div>
+                <h3>Aura Botanicals — Skincare Box &amp; Brochure</h3>
+                <p>Shot 1: Box &amp; Serum Bottle · Shot 2: Tri-Fold Brochure · Shot 3: Skincare Jar Line</p>
+              </div>
+              <span class="view-icon">↗</span>
+            </div>
+          </article>
+
+          <!-- Featured 4: UI/UX & Web Design (Apex AI) -->
+          <article class="portfolio-item" data-project-id="uiux-01" data-title="Apex AI — Dark-Mode SaaS Analytics Dashboard &amp; Figma Kit" data-category="UI/UX 01 · SAAS WEB & FIGMA KIT" data-desc="High-resolution wide desktop monitor displaying a dark-mode SaaS analytics dashboard UI with glowing neon data charts, two floating iPhone 15 Pro companion screens, and isometric 3D Figma component library layers.">
+            <div class="portfolio-thumb">
+              <span class="portfolio-category-pill">UI/UX 01 · SAAS WEB &amp; FIGMA KIT</span>
+              <div class="shot-switcher">
+                <button type="button" class="shot-btn active">Shot 1</button>
+                <button type="button" class="shot-btn">Shot 2</button>
+                <button type="button" class="shot-btn">Shot 3</button>
+              </div>
+              <div class="thumb-slide active-slide">
+                <img src="images/uiux-1.svg" alt="Apex AI Shot 1: Wide Desktop Monitor Displaying Dark-Mode SaaS Analytics Dashboard" />
+              </div>
+              <div class="thumb-slide">
+                <img src="images/uiux-2.svg" alt="Apex AI Shot 2: Dual Floating iPhone 15 Pro Mockups with Dark SaaS Mobile UI" />
+              </div>
+              <div class="thumb-slide">
+                <img src="images/uiux-3.svg" alt="Apex AI Shot 3: Isometric 3D SaaS Wireframe and Figma Component Library" />
+              </div>
+            </div>
+            <div class="portfolio-caption">
+              <div>
+                <h3>Apex AI — SaaS Web &amp; Figma Design System</h3>
+                <p>Shot 1: Desktop Dashboard · Shot 2: Mobile App Screens · Shot 3: Wireframe &amp; UI Kit</p>
+              </div>
+              <span class="view-icon">↗</span>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="portfolio.html" class="btn btn-secondary">
+            View All Works on Projects Page (12 Projects · 36 8K Studio Mockups) →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 4: SERVICES OFFERED
+         ==================================================================== -->
+    <section>
+      <div class="container">
+        <div class="portfolio-header-row">
+          <div>
+            <span class="section-badge">✦ Section 04 · Services Offered</span>
+            <h2 class="section-heading">What I <em>Design</em></h2>
+            <p class="section-subtitle">
+              Everything your brand needs to look credible, modern, and unforgettable.
+            </p>
+          </div>
+          <a href="services.html" class="btn btn-secondary">
+            See Packages &amp; Pricing ↗
+          </a>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">01</div>
+              <h3>Brand Identity &amp; Logo Design</h3>
+              <p>Complete visual identity systems including custom logos, color palettes, typography, and brand guidelines books.</p>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">Logo Design</span>
+              <span class="service-tag">Color Palette</span>
+              <span class="service-tag">Brand Guidelines</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">02</div>
+              <h3>Social Media Graphics</h3>
+              <p>High-converting Instagram carousels, YouTube banners, thumbnails, and paid ad creatives built for growth.</p>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">Instagram Posts</span>
+              <span class="service-tag">Banners</span>
+              <span class="service-tag">Ad Creatives</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">03</div>
+              <h3>Marketing &amp; Print Materials</h3>
+              <p>Print-ready flyers, posters, brochures, product packaging, and tactile business cards with exact CMYK specs.</p>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">Flyers &amp; Posters</span>
+              <span class="service-tag">Brochures</span>
+              <span class="service-tag">Business Cards</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">04</div>
+              <h3>UI/UX &amp; Web Design</h3>
+              <p>Modern landing page designs, mobile app interfaces, and interactive Figma prototypes that convert visitors.</p>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">Landing Pages</span>
+              <span class="service-tag">Figma Prototypes</span>
+              <span class="service-tag">Web UI Kits</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 5: WHY WORK WITH ME?
+         ==================================================================== -->
+    <section class="value-section">
+      <div class="container">
+        <div class="portfolio-header-row">
+          <div>
+            <span class="section-badge">✦ Section 05 · Value Proposition</span>
+            <h2 class="section-heading">Why Work With <em>Me?</em></h2>
+            <p class="section-subtitle">
+              Three core promises that guarantee a smooth, stress-free design experience.
+            </p>
+          </div>
+          <a href="about.html" class="btn btn-secondary">More About My Process ↗</a>
+        </div>
+
+        <div class="value-grid">
+          <div class="value-box">
+            <span class="value-number">01 // ON-TIME DELIVERY</span>
+            <h3>⚡ Fast Turnaround Time</h3>
+            <p>Waqt par kaam mukammal karna—receive first concepts within 48 hours and always hit your launch deadlines.</p>
+          </div>
+
+          <div class="value-box">
+            <span class="value-number">02 // RETINA &amp; PRINT READY</span>
+            <h3>🎯 Pixel-Perfect Quality</h3>
+            <p>High-resolution aur modern designs delivered with editable master source files (AI, PSD, FIG, PDF, SVG, PNG).</p>
+          </div>
+
+          <div class="value-box">
+            <span class="value-number">03 // 100% SATISFACTION</span>
+            <h3>♾️ Unlimited Revisions</h3>
+            <p>Jab tak client 100% satisfy na ho—dedicated refinement rounds until every detail matches your vision.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 6: CLIENT TESTIMONIALS
+         ==================================================================== -->
+    <section>
+      <div class="container">
+        <span class="section-badge">✦ Section 06 · Client Testimonials</span>
+        <h2 class="section-heading">Verified Client <em>Reviews</em></h2>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div>
+              <div class="stars">★★★★★</div>
+              <p style="margin-top: 1rem;">
+                “Aryan transformed our startup's logo and brand guidelines. Investors praised our visual identity in every meeting!”
+              </p>
+            </div>
+            <div class="reviewer-row">
+              <div class="reviewer-avatar">SK</div>
+              <div class="reviewer-info">
+                <strong>Sameer Khan</strong>
+                <span>Founder, NovaPay AI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <div class="stars">★★★★★</div>
+              <p style="margin-top: 1rem;">
+                “Our Instagram engagement and ad CTR doubled within 30 days of using Aryan's social media graphics package.”
+              </p>
+            </div>
+            <div class="reviewer-row">
+              <div class="reviewer-avatar">ER</div>
+              <div class="reviewer-info">
+                <strong>Elena Rostova</strong>
+                <span>Head of Growth, Pulse Creators</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <div class="stars">★★★★★</div>
+              <p style="margin-top: 1rem;">
+                “Pixel-perfect packaging and print brochures delivered ahead of schedule. Easily the best designer we've hired.”
+              </p>
+            </div>
+            <div class="reviewer-row">
+              <div class="reviewer-avatar">DM</div>
+              <div class="reviewer-info">
+                <strong>David Miller</strong>
+                <span>Creative Director, Aura Luxe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 7: FOOTER / CALL TO ACTION
+         ==================================================================== -->
+    <section class="footer-cta-section">
+      <div class="container">
+        <div class="cta-grid">
+          <div>
+            <span class="section-badge">✦ Section 07 · Start Your Project</span>
+            <h2 class="section-heading">
+              Got a project in mind? Let's create something <em>amazing</em> together.
+            </h2>
+            <p class="section-subtitle" style="margin-top: 1rem;">
+              Send a quick message right here or visit the dedicated <a href="contact.html" style="color: var(--accent);">Contact &amp; Project Brief Page</a>.
+            </p>
+
+            <div class="social-links-row">
+              <a href="https://instagram.com" target="_blank" rel="noopener" class="social-pill">✦ Instagram ↗</a>
+              <a href="https://behance.net" target="_blank" rel="noopener" class="social-pill">✦ Behance ↗</a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-pill">✦ LinkedIn ↗</a>
+              <a href="https://dribbble.com" target="_blank" rel="noopener" class="social-pill">✦ Dribbble ↗</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" placeholder="Enter your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email *</label>
+                <input type="email" id="email" placeholder="you@company.com" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" rows="3" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message ↗
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <footer class="footer-bottom">
+          <span>© 2026 ARYAN VANCE DESIGN STUDIO.</span>
+          <span>
+            <a href="index.html" style="color: inherit; margin-right: 1rem;">Home</a>
+            <a href="portfolio.html" style="color: inherit; margin-right: 1rem;">Projects</a>
+            <a href="services.html" style="color: inherit; margin-right: 1rem;">Services</a>
+            <a href="about.html" style="color: inherit; margin-right: 1rem;">About</a>
+            <a href="contact.html" style="color: inherit;">Contact</a>
+          </span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="project-modal" id="project-modal">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+      <span class="section-badge" id="modal-category" style="margin-bottom: 0;">CATEGORY</span>
+      <button type="button" class="theme-btn" id="close-modal">✕ Close</button>
+    </div>
+    <h3 class="section-heading" id="modal-title" style="font-size: 1.85rem;">Project Title</h3>
+    <p id="modal-desc" style="color: var(--text-muted); margin: 0.75rem 0 1.25rem;"></p>
+    <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent);">
+      PROJECT MULTI-ANGLE GALLERY (3 SHOTS):
+    </span>
+    <div class="modal-gallery-grid" id="modal-gallery"></div>
+    <a href="contact.html" class="btn btn-primary" style="margin-top: 1rem;">Request Similar Project ↗</a>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="mockup-studio.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

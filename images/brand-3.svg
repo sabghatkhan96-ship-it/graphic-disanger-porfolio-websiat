@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vinylBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0C1333"/>
+      <stop offset="100%" stop-color="#060814"/>
+    </linearGradient>
+    <radialGradient id="discSheen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#232733"/>
+      <stop offset="45%" stop-color="#0B0C10"/>
+      <stop offset="75%" stop-color="#1D212C"/>
+      <stop offset="100%" stop-color="#07080B"/>
+    </radialGradient>
+    <filter id="vShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#vinylBg)"/>
+  <!-- Rotating 180g Vinyl Record Disc with Grooves -->
+  <g filter="url(#vShadow)" transform="translate(495, 250)">
+    <circle cx="0" cy="0" r="185" fill="url(#discSheen)" stroke="#2E3654" stroke-width="2"/>
+    <circle cx="0" cy="0" r="155" fill="none" stroke="#28304D" stroke-width="1"/>
+    <circle cx="0" cy="0" r="128" fill="none" stroke="#28304D" stroke-width="1"/>
+    <circle cx="0" cy="0" r="98" fill="none" stroke="#28304D" stroke-width="1"/>
+    <circle cx="0" cy="0" r="66" fill="#FF3B1D"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#FFFFFF" stroke-dasharray="6 4" stroke-width="2"/>
+    <circle cx="0" cy="0" r="14" fill="#060814"/>
+  </g>
+  <!-- Gatefold Outer Sleeve with Japanese Obi Strip -->
+  <g filter="url(#vShadow)" transform="translate(95, 65)">
+    <rect x="0" y="0" width="365" height="365" rx="8" fill="#1229D6" stroke="#3B55FF" stroke-width="2"/>
+    <!-- Japanese Obi Strip -->
+    <rect x="0" y="0" width="68" height="365" fill="#F6F4EF"/>
+    <rect x="18" y="28" width="32" height="32" fill="#FF3B1D"/>
+    <rect x="22" y="80" width="24" height="160" rx="4" fill="#1229D6"/>
+    <circle cx="34" cy="295" r="18" fill="#0B0C10"/>
+    <!-- Geometric Bauhaus Soundwave Artwork on Sleeve -->
+    <circle cx="215" cy="182" r="105" fill="#FF3B1D"/>
+    <circle cx="245" cy="182" r="72" fill="#0B0C10"/>
+    <circle cx="265" cy="182" r="34" fill="#D4FF33"/>
+    <rect x="110" y="312" width="140" height="12" rx="6" fill="#FFFFFF"/>
+    <rect x="110" y="332" width="90" height="8" rx="4" fill="#9BB0FF"/>
+  </g>
+</svg>

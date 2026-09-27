@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="uiBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B131D"/>
+      <stop offset="100%" stop-color="#05090E"/>
+    </linearGradient>
+    <filter id="uDrop" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#uiBg)"/>
+  <!-- Desktop MacBook / Glass Monitor SaaS Dashboard -->
+  <g filter="url(#uDrop)" transform="translate(45, 40)">
+    <rect x="0" y="0" width="535" height="340" rx="16" fill="#131C28" stroke="#28384F" stroke-width="2.5"/>
+    <!-- Browser Top Bar -->
+    <line x1="0" y1="36" x2="535" y2="36" stroke="#28384F" stroke-width="1.5"/>
+    <circle cx="22" cy="18" r="5" fill="#FF4D29"/>
+    <circle cx="38" cy="18" r="5" fill="#F59E0B"/>
+    <circle cx="54" cy="18" r="5" fill="#10B981"/>
+    <!-- Left Sidebar Navigation -->
+    <rect x="16" y="52" width="95" height="270" rx="10" fill="#0D141E"/>
+    <rect x="28" y="68" width="70" height="10" rx="5" fill="#10B981"/>
+    <rect x="28" y="92" width="55" height="8" rx="4" fill="#32435C"/>
+    <rect x="28" y="110" width="62" height="8" rx="4" fill="#32435C"/>
+    <rect x="28" y="128" width="48" height="8" rx="4" fill="#32435C"/>
+    <!-- KPI Metric Cards -->
+    <rect x="128" y="52" width="122" height="72" rx="10" fill="#192536"/>
+    <circle cx="152" cy="88" r="14" fill="#10B981"/>
+    <rect x="176" y="76" width="58" height="10" rx="5" fill="#FFFFFF"/>
+    <rect x="176" y="94" width="42" height="7" rx="3.5" fill="#10B981"/>
+    <rect x="262" y="52" width="122" height="72" rx="10" fill="#192536"/>
+    <circle cx="286" cy="88" r="14" fill="#FF4D29"/>
+    <rect x="310" y="76" width="58" height="10" rx="5" fill="#FFFFFF"/>
+    <rect x="310" y="94" width="42" height="7" rx="3.5" fill="#FF4D29"/>
+    <rect x="396" y="52" width="122" height="72" rx="10" fill="#192536"/>
+    <circle cx="420" cy="88" r="14" fill="#D4FF33"/>
+    <rect x="444" y="76" width="58" height="10" rx="5" fill="#FFFFFF"/>
+    <!-- Main Analytics Revenue Curve & Bar Chart -->
+    <rect x="128" y="138" width="256" height="184" rx="12" fill="#0D141E"/>
+    <polyline points="148,285 185,245 225,262 275,195 320,215 362,170" fill="none" stroke="#10B981" stroke-width="4"/>
+    <circle cx="275" cy="195" r="6" fill="#D4FF33"/>
+    <circle cx="362" cy="170" r="6" fill="#FF4D29"/>
+    <!-- Right Donut Chart Panel -->
+    <rect x="396" y="138" width="122" height="184" rx="12" fill="#0D141E"/>
+    <circle cx="457" cy="215" r="38" fill="none" stroke="#10B981" stroke-width="12"/>
+    <path d="M457 177 A38 38 0 0 1 495 215" fill="none" stroke="#FF4D29" stroke-width="12"/>
+  </g>
+  <!-- Floating Mobile Responsive Screen Overlap -->
+  <g filter="url(#uDrop)" transform="translate(555, 110)">
+    <rect x="0" y="0" width="195" height="350" rx="26" fill="#131C28" stroke="#10B981" stroke-width="3"/>
+    <rect x="62" y="10" width="70" height="12" rx="6" fill="#080C12"/>
+    <rect x="18" y="38" width="159" height="95" rx="12" fill="#10B981"/>
+    <circle cx="54" cy="85" r="22" fill="#0B131D"/>
+    <rect x="88" y="72" width="70" height="10" rx="5" fill="#0B131D"/>
+    <rect x="88" y="90" width="50" height="8" rx="4" fill="#0B131D" opacity="0.6"/>
+    <rect x="18" y="148" width="159" height="75" rx="10" fill="#192536"/>
+    <polyline points="32,205 70,175 110,190 158,162" fill="none" stroke="#FF4D29" stroke-width="3.5"/>
+    <rect x="18" y="238" width="159" height="42" rx="21" fill="#FF4D29"/>
+  </g>
+</svg>

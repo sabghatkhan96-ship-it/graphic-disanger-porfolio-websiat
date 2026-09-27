@@ -1,0 +1,65 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#211C18"/>
+      <stop offset="100%" stop-color="#110E0C"/>
+    </linearGradient>
+    <linearGradient id="amberGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6E320F"/>
+      <stop offset="38%" stop-color="#B85C24"/>
+      <stop offset="70%" stop-color="#7D3810"/>
+      <stop offset="100%" stop-color="#3E1905"/>
+    </linearGradient>
+    <linearGradient id="goldNeck" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C59B48"/>
+      <stop offset="50%" stop-color="#F6E099"/>
+      <stop offset="100%" stop-color="#9A7225"/>
+    </linearGradient>
+    <filter id="pShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="22" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#pBg)"/>
+  <!-- Left Rigid Terracotta Packaging Box -->
+  <g filter="url(#pShadow)" transform="translate(65, 80)">
+    <rect x="0" y="0" width="195" height="330" rx="8" fill="#C85A32"/>
+    <rect x="22" y="32" width="151" height="266" rx="4" fill="none" stroke="#F6E099" stroke-width="1.5"/>
+    <circle cx="97" cy="125" r="38" fill="#F5F0E6"/>
+    <circle cx="97" cy="125" r="16" fill="#C85A32"/>
+    <rect x="45" y="195" width="105" height="12" rx="6" fill="#F5F0E6"/>
+    <rect x="62" y="218" width="70" height="8" rx="4" fill="#F6E099"/>
+  </g>
+  <!-- Center 3D Fluted Amber Glass Dropper Bottle -->
+  <g filter="url(#pShadow)" transform="translate(305, 55)">
+    <!-- Rubber Pipette Top -->
+    <rect x="66" y="0" width="48" height="62" rx="24" fill="#E8E2D5"/>
+    <!-- Gold Metallic Collar -->
+    <rect x="52" y="54" width="76" height="42" rx="6" fill="url(#goldNeck)"/>
+    <!-- Amber Glass Vessel -->
+    <rect x="18" y="94" width="144" height="265" rx="22" fill="url(#amberGlass)"/>
+    <!-- Glass Highlight Strip -->
+    <rect x="34" y="108" width="12" height="235" rx="6" fill="#FFFFFF" opacity="0.22"/>
+    <!-- Cream Apothecary Label -->
+    <rect x="30" y="145" width="120" height="165" rx="6" fill="#F7F4EC"/>
+    <circle cx="90" cy="195" r="24" fill="#C85A32"/>
+    <rect x="50" y="236" width="80" height="10" rx="5" fill="#1B1815"/>
+    <rect x="60" y="254" width="60" height="7" rx="3.5" fill="#C85A32"/>
+    <rect x="55" y="274" width="70" height="6" rx="3" fill="#8C8274"/>
+  </g>
+  <!-- Right Open Print Brochure & Gold Foil Business Cards -->
+  <g filter="url(#pShadow)" transform="translate(510, 75)">
+    <rect x="0" y="0" width="225" height="195" rx="6" fill="#F5F0E6"/>
+    <rect x="20" y="22" width="88" height="115" rx="4" fill="#3A4F3C"/>
+    <circle cx="64" cy="79" r="24" fill="#F6E099"/>
+    <rect x="122" y="30" width="82" height="10" rx="5" fill="#1B1815"/>
+    <rect x="122" y="48" width="65" height="8" rx="4" fill="#C85A32"/>
+    <rect x="122" y="70" width="82" height="6" rx="3" fill="#A39B8E"/>
+    <rect x="122" y="84" width="75" height="6" rx="3" fill="#A39B8E"/>
+  </g>
+  <g filter="url(#pShadow)" transform="translate(520, 295) rotate(-4)">
+    <rect x="0" y="0" width="215" height="120" rx="8" fill="#161412" stroke="#F6E099" stroke-width="2"/>
+    <circle cx="54" cy="60" r="22" fill="url(#goldNeck)"/>
+    <rect x="92" y="46" width="90" height="10" rx="5" fill="#F5F0E6"/>
+    <rect x="92" y="64" width="65" height="7" rx="3.5" fill="#F6E099"/>
+  </g>
+</svg>
